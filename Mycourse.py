@@ -8,7 +8,7 @@ print()
 #taking name of user
 name = input("please enter your name : ")
 print()
-#taking interests of user
+#taking interest of user
 interests = input("please give information about things you like, what you would like to do, subjects you like,"
                       " things you love being around and in it mention the specific fields "
                       "eg: science(technology or health), "
@@ -42,8 +42,8 @@ print(f'Jamb total = {total_jamb}')
 print()
 
 
-#Now the selection the conditional statements evaluate which course will
-# be most suitable for User and if not renders User not eligible
+#Now the selection, the conditional statements evaluate which course will
+# be most suitable for User and if not, renders User not eligible
 if 'technology' in interests or 'engineering' in interests or 'engineer' in interests:
     if (data2['mathematics'] >= 70) and (data2['physics'] >= 70) and (data2['chemistry'] >= 70):
         if total_jamb >= 260:
